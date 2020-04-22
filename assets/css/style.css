@@ -1484,8 +1484,9 @@ section {
 }
 
 #covid{
-  max-width: 60%;
-  padding: 20px;
+  max-width: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #zoom{
@@ -1494,13 +1495,18 @@ section {
 }
 
 @media (min-width: 767px) {
-  #watch_video_button  {
+  #watch_video_button, #rsa_logo, #idha_logo {
     display: none !important;
   }
 }
 
+#watch_video_button.btn {
+  margin-bottom: 20px;
+}
+
 #video_icon{
-  font-size: 3em;
+  font-size: 4em;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
@@ -1516,5 +1522,17 @@ section {
 #radio-circle-css i{
   padding-top: 5px;
   padding-left: 3px;
+}
+
+#rsa_logo{
+  max-width: 30%;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+#idha_logo{
+  max-width: 30%;
+  border-radius: 6px;
+  margin-left: 10px;
 }
 
