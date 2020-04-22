@@ -1476,8 +1476,8 @@ section {
 }
 
 #covid_text{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 18px;
+  padding-bottom: 5px;
 }
 
 #covid{
@@ -1488,4 +1488,20 @@ section {
 #zoom{
   max-width: 25%;
   padding: 20px;
+}
+
+#services_video{
+  max-width: 100%;
+}
+
+@media (min-width: 767px) {
+  #watch_video_box {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #services_video {
+    display: none !important;
+  }
 }
