@@ -1469,3 +1469,23 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#covid_row{
+  background-color: #00664b;
+  color: white;
+}
+
+#covid_text{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#covid{
+  max-width: 60%;
+  padding: 20px;
+}
+
+#zoom{
+  max-width: 25%;
+  padding: 20px;
+}
