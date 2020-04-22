@@ -541,6 +541,9 @@ section {
 .about .content ul li {
   padding: 10px 0 0 28px;
   position: relative;
+  border: solid rgb(175, 173, 173) 0.5px;
+  border-radius: 4px;
+  padding-bottom: 7px ;
 }
 
 .about .content ul i {
@@ -1509,3 +1512,9 @@ section {
 #services_video{
   max-width: 100%;
 }
+
+#radio-circle-css i{
+  padding-top: 5px;
+  padding-left: 3px;
+}
+
