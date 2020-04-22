@@ -234,23 +234,13 @@
               <h3>Why Choose Southeast CPC?</h3>
               <p>
                 Watch our video to learn why you should choose us for all your CPC and Transport Management Requirements
-              </p>
+              </p><br>
+              <i class="bx bx-video" id="video_icon"></i><br><br>
               
-              <div id="watch_video_box" class="icon-boxes d-flex flex-column justify-content-center">
-                <div class="row">
-  
-                  <div class="col-xl-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box mt-4 mt-xl-0">
-                      <i class="bx bx-video"></i>
-                      <h4 style="color: black;">Watch <br>Services Overview Video</h4>
-                      
-                    </div>
-                  </div>
-                                  
-                </div>
-              </div>
-              
-
+              <!-- Button to Open the Modal -->
+              <button id="watch_video_button" type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">
+              Watch Video
+              </button>
 
             </div>
               <!--<div class="text-center">
@@ -273,6 +263,36 @@
           
       </div>
     </section><!-- End Why Us Section -->
+
+    <!-- Video Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Southeast CPC Services Overview</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+
+              <video id="modal_video" width="100%" class="text-center" controls poster="assets/video/Click here to watch video.png">
+              <source src="assets/video/SFT_demo_FINAL.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+           
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">

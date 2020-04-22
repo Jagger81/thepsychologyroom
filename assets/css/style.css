@@ -1490,18 +1490,22 @@ section {
   padding: 20px;
 }
 
-#services_video{
-  max-width: 100%;
-}
-
 @media (min-width: 767px) {
-  #watch_video_box {
+  #watch_video_button  {
     display: none !important;
   }
+}
+
+#video_icon{
+  font-size: 3em;
 }
 
 @media (max-width: 767px) {
   #services_video {
     display: none !important;
   }
+}
+
+#services_video{
+  max-width: 100%;
 }
