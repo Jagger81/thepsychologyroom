@@ -541,8 +541,8 @@ section {
 .about .content ul li {
   padding: 10px 0 0 28px;
   position: relative;
-  border: solid rgb(175, 173, 173) 0.5px;
-  border-radius: 4px;
+  /*border: solid rgb(175, 173, 173) 0.5px;
+  border-radius: 4px;*/
   padding-bottom: 7px ;
 }
 
@@ -1495,7 +1495,7 @@ section {
 }
 
 @media (min-width: 767px) {
-  #watch_video_button, #rsa_logo, #idha_logo {
+  #watch_video_button, #rsa_logo, #idha_logo, #virtual_msg_small {
     display: none !important;
   }
 }
@@ -1510,7 +1510,7 @@ section {
 }
 
 @media (max-width: 767px) {
-  #services_video, #covid {
+  #services_video, #covid, #virtual_msg_large {
     display: none !important;
   }
 }
