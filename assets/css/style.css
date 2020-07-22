@@ -1639,7 +1639,7 @@ section {
 h1 span::before{
   content: '';
   color: #e69494;
-  animation: profile 4s infinite;
+  animation: profile 5s linear infinite;
 }
 @keyframes profile {
   0% { content: 'Heal'}
