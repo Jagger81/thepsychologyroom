@@ -1222,7 +1222,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: pink;
+  background: grey;
 }
 
 @-webkit-keyframes animate-loading {
