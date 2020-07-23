@@ -1659,3 +1659,13 @@ h1 span::before{
 #padded-par {
   padding-top: 35px;
 }
+
+/* Email Text Color */
+
+#email_text {
+  color: grey;
+}
+
+#email_text:hover {
+  color: pink;
+}
