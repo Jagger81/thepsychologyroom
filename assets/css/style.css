@@ -669,7 +669,7 @@ section {
 # Cta1
 --------------------------------------------------------------*/
 .cta1 {
-  background: linear-gradient(rgba(2, 2, 2, 0.1), rgba(0, 0, 0, 0.1)), url("../img/cta1-bg.png") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../img/cta1-bg_trans.png") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -695,7 +695,7 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 2px solid lightgrey;
   color:grey;
 }
 
@@ -1032,6 +1032,13 @@ section {
 
 .team .member .pic img {
   transition: ease-in-out 0.3s;
+}
+
+@media (max-width: 767px) {
+#BPS_Pic {
+  max-width: 35%;
+  margin: 0 auto 20px auto;
+}
 }
 
 .team .member:hover img {
@@ -1645,4 +1652,10 @@ h1 span::before{
   0% { content: 'Heal'}
   50% { content: 'Grow'}
   100% { content: 'Thrive'}
+}
+
+/* Padded Paragragh */
+
+#padded-par {
+  padding-top: 35px;
 }
