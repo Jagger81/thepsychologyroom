@@ -134,9 +134,18 @@ h1, h2, h3, h4, h5, h6 {
     /* For mobile phones: */
     #main_logo {
       max-width: 80%;
-    }
   }
 
+  @media only screen and (max-width: 375px) {   /*logo text will not display on mobiles */
+    /* For mobile phones: */
+    #header .logo h2 {
+      display: none;
+  }
+
+  #header .container {
+    padding-bottom: 25px;
+}
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
